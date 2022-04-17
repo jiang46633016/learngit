@@ -1,0 +1,111 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: katong;
+}
+
+@media only screen and (min-width: 320px) {
+html {
+  font-size: 62.5% !important;
+}
+}
+
+@media only screen and (min-width: 640px) {
+html {
+  font-size: 100% !important;
+}
+}
+
+@media only screen and (min-width: 750px) {
+html {
+  font-size: 120% !important;
+}
+}
+
+@media only screen and (min-width: 1242px) {
+html {
+  font-size: 130% !important;
+}
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background-color: #4dc5b9;
+}
+
+img {
+  border: none;
+  display: none;
+}
+
+#gameCanvas {
+  /* width: 50%;
+  height: 50%;
+  left: 10%; */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* float: left; */
+  background-color: #ece5ce;
+}
+
+/* #deBugCanvas{
+  width: 50%;
+  height: 50%;
+  left: 20%;
+  position: relative;
+  float: left;
+  background-color: #b5c078;
+} */
+
+#speed_tipbox {
+  display: none;
+  width:  100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 101;
+}
+#speed_tipMask {
+  width:  100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.6;
+}
+#speed_tip {
+  width: 13.96rem;
+  height: 8.625rem;
+  background-image: url(images/speedRetryBg.png);
+  background-size: 13.96rem 8.625rem;
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  margin-left: -6.98rem;
+  margin-top: -4.3125rem;
+  opacity: 1;
+}
+
+#speed_retry, #speed_home {
+  width: 6.42rem;
+  height: 2.083rem;
+  background-size: 6.42rem 2.083rem;
+  position: absolute;
+}
+
+#speed_retry {
+  background-image: url(images/speedRetryBtn.png);
+  bottom: -2.5rem;
+  left: 0;
+}
+
+#speed_home {
+  background-image: url(images/speedRetryHome.png);
+  bottom: -2.5rem;
+  right: 0;
+}

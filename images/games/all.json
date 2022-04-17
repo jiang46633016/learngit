@@ -1,0 +1,33 @@
+{
+"images": ["00.png"],
+"frames": [
+
+    [0, 0, 103, 102], 
+    [103, 0, 103, 102], 
+    [206, 0, 45, 44], 
+    [251, 0, 128, 53], 
+    [379, 0, 128, 53], 
+    [0, 102, 219, 140], 
+    [219, 102, 219, 140], 
+    [0, 242, 440, 435], 
+    [0, 677, 238, 138], 
+    [238, 677, 238, 138]
+],
+"animations": {
+    
+        "white-cross":[0, 0, 103, 102],
+        "red-cross":[103, 0, 103, 102],
+        "cursor":[206, 0, 45, 44],
+        "text-time":[251, 0, 128, 53],
+        "text-score":[379, 0, 128, 53],
+        "tip-singular":[0, 102, 219, 140],
+        "tip-evenNumbers":[219, 102, 219, 140],
+        "endText":[0, 242, 440, 435],
+        "choose-singular":[0, 677, 238, 138],
+        "choose-evenNumbers":[238, 677, 238, 138]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:4ec5777650982117a0814c8eb8d7f749$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EasalJS"
+]
+}

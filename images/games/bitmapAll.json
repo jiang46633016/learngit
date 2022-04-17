@@ -1,0 +1,33 @@
+{
+"images": ["bitmapAll.png"],
+"frames": [
+
+    [0, 0, 103, 102], 
+    [103, 0, 103, 102], 
+    [206, 0, 128, 53], 
+    [334, 0, 128, 53], 
+    [0, 102, 219, 140], 
+    [219, 102, 219, 140], 
+    [0, 242, 238, 138], 
+    [238, 242, 238, 138], 
+    [0, 380, 63, 61], 
+    [0, 441, 476, 312]
+],
+"animations": {
+    
+        "01":[0], 
+        "02":[1], 
+        "04":[2], 
+        "05":[3], 
+        "06":[4], 
+        "07":[5], 
+        "09":[6], 
+        "10":[7], 
+        "cursor":[8], 
+        "theEnd":[9]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:18bf364fef8b596fc6e46a1884a9ef33$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EasalJS"
+]
+}
